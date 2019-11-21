@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+
+#hello{
+  color: red;
+  font-size: 30px
+}

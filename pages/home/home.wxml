@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view>Hello {{name}}</view>
+<view>我的年龄:{{age}}</view>
+<view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
+<view>当前计数:{{counter}}</view>
+<button size="mini" bindtap="add">+</button>
+<button size="mini" bindtap="sub">-</button>
+<!-- 第二种获取用户信息的方式 -->
+<open-data type = "userNickName"></open-data>
+<open-data type = "userGender"></open-data>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<view>视图1</view>
+<!-- 第三种获取用户信息的方式 -->
+<button open-type="getUserInfo" bindgetuserinfo="getInfo">老王</button>

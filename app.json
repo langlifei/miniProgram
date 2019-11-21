@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/catogory/catogory"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3CA9C4",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "myMiniApplication",
+    "backgroundColor": "green",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "/asserts/tabBar/home.png",
+        "selectedIconPath": "/asserts/tabBar/home_active.png"
+      },
+      {
+        "pagePath": "pages/catogory/catogory",
+        "text": "分类",
+        "iconPath": "/asserts/tabBar/category.png",
+        "selectedIconPath": "/asserts/tabBar/category_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap61.json"
+}
